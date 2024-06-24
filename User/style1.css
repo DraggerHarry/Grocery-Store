@@ -1,0 +1,83 @@
+.contact-wrap{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-wrap img{
+    margin-left: 80px;
+}
+.wrap1{
+    margin-left: 110px;
+}
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-container .card {
+    width: calc(30% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.contact-container .card:hover{
+    background-color: #ff9900;
+    color: white;
+}
+
+.contact-container .card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-container .card p {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container .card {
+        width: calc(50% - 20px);
+    }
+}
+
+
+.contact-form-container  {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form-container .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form-container input[type="text"],
+.contact-form-container input[type="email"],
+.contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
